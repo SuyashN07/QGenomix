@@ -1,0 +1,21 @@
+# QGenomix Interface Contracts
+
+## Q1 → Q2
+Input:  np.array, shape (n_qubits,), values in [0, π]
+Output: quantum state (implicit, handled by PennyLane)
+
+## Q2 → Q3
+Input:  quantum state (implicit)
+Output: quantum state (implicit)
+
+## Q3 → Q4
+Input:  params np.array shape (n_qubits, 3), values in [0, 2π]
+Output: quantum state (implicit)
+
+## Q4 → Q5
+Output: list of floats, length n_qubits, values in [-1, 1]
+
+## Q5 → Classical Layer
+Output: np.array shape (n_samples, n_qubits) — quantum features
+
+This file is for reference. 
