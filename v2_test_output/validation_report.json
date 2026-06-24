@@ -1,0 +1,22 @@
+{
+  "gwas_archive_member": "All_Metal_LDSC-CORR_Neff.v2.txt",
+  "matrix_shape": [
+    2504,
+    1000
+  ],
+  "matrix_dtype": "float32",
+  "sample_count": 2504,
+  "feature_count": 1000,
+  "gwas_aligned_feature_count": 1000,
+  "raw_missing_values_before_imputation": 0,
+  "raw_min_after_imputation": 0.0,
+  "raw_max_after_imputation": 2.0,
+  "standardized_max_abs_difference_from_v1": 9.5367431640625e-07,
+  "candidate_pair_count": 500,
+  "ground_truth_pair_count": 20,
+  "case_count": 251,
+  "control_count": 2253,
+  "case_rate": 0.10023961661341853,
+  "liability_threshold": 5.367974246648381,
+  "seed": 42
+}
